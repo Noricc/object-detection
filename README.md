@@ -12,12 +12,12 @@ Make sure you are using Python 3: `python --version`. On Ubuntu, you can probabl
 
 Create an environment directory, the packages you install with `pip` (for instance, PyTorch) will be stored there. I put it in the "env" directory.
 
-	virtualenv -p python3 env
+    virtualenv -p python3 env
 
 Activate the virtual environment:
 
-	# If you are using bash
-	source env/bin/activate
+    # If you are using bash
+    source env/bin/activate
 
 Your prompt should have if the activation of the virtual env worked.
 
@@ -25,14 +25,19 @@ Your prompt should have if the activation of the virtual env worked.
 
 If you want to use a jupyter notebook, you can install Jupyter with
 
-	pip install jupyter
+    pip install jupyter
 
 And then:
 
-	jupyter notebook
+    jupyter notebook
 
 Warning: You may have to run these commands *even if you have Jupyter installed on your machine already*, as it's set up to work with your packages when installed this way.
 
 ## Installing PyTorch
 
 You need to go on [the PyTorch page](https://pytorch.org/get-started/locally/#mac-anaconda) and choose from a selector the things you have, it will generate a command to paste in your terminal to install it.
+
+
+## Downloading the images
+
+You need to download the images from [kaggle](https://www.kaggle.com/kmader/food41#1002850.jpg).
